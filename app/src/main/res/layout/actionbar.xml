@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/MiactionBar"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:minHeight="?attr/actionBarSize"
+    android:elevation="@dimen/ElevacionBarra"
+    android:layout_marginRight="@dimen/MargenBarra"
+    android:background="@android:color/white"
+    app:titleTextColor="@android:color/holo_red_dark"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/BotonHuella"
+            android:layout_width="@dimen/TamañoIconoBarra"
+            android:layout_height="@dimen/TamañoIconoBarra"
+            android:clickable="true"
+            android:src="@drawable/pata" />
+
+
+        <TextView
+            style="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center|center_vertical"
+            android:layout_marginLeft="@dimen/MargenTextoBarra"
+            android:text="Petagram"
+            android:textStyle="italic"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/TamañoTextoBarra"></TextView>
+
+        <ImageView
+            android:id="@+id/BotonEstrella"
+            android:src="@drawable/estrella_hotel"
+            android:layout_width="@dimen/TamañoIconoBarra"
+            android:layout_height="@dimen/TamañoIconoBarra"
+            android:layout_marginLeft="@dimen/MargenEstrella"
+            android:clickable="true"
+            android:onClick="PantallaFavoritos"/>
+
+    </LinearLayout>
+</androidx.appcompat.widget.Toolbar>

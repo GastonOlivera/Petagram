@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_below="@+id/MiactionBar"
+    android:layout_width="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/animales"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/MargenCard"
+    card_view:cardCornerRadius="@dimen/MargenCardRadius"
+    android:backgroundTint="@color/colorCeleste"
+
+    >
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/paddingLayout"
+        android:paddingHorizontal="@dimen/paddingLayout"
+        >
+
+        <ImageView
+            android:id="@+id/imgAnimal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/oso_cazador">
+        </ImageView>
+
+
+
+        <TextView
+            android:id="@+id/NombreA"
+            style="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgAnimal"
+            android:layout_marginTop="@dimen/MargenTextCard"
+            android:text="perroadsadasdsa"
+            android:gravity="center"
+            android:textSize="@dimen/TamañoTextoCard">
+        </TextView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/ImgHueso"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_below="@id/imgAnimal"
+                android:src="@drawable/hueso_dorado"
+                android:layout_marginTop="@dimen/MargenHueso"
+                android:layout_marginLeft="@dimen/MargenHuesoDerecha"
+                ></ImageView>
+        </LinearLayout>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+
+
+
+
+
+
+

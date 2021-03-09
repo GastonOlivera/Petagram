@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ElevacionBarra">4sp</dimen>
+    <dimen name="MargenBarra">23dp</dimen>
+    <dimen name="MargenTextoBarra">60dp</dimen>
+    <dimen name="TamañoTextoBarra">22dp</dimen>
+    <dimen name="MargenEstrella">55dp</dimen>
+    <dimen name="TamañoIconoBarra">60dp</dimen>
+    <dimen name="MargenCard">16dp</dimen>
+    <dimen name="MargenCardRadius">4dp</dimen>
+    <dimen name="paddingLayout">10sp</dimen>
+    <dimen name="MargenTextCard">-45dp</dimen>
+    <dimen name="TamañoTextoCard">25dp</dimen>
+    <dimen name="MargenHueso">560dp</dimen>
+    <dimen name="MargenHuesoDerecha">280dp</dimen>
+
+
+
+
+
+
+
+</resources>
